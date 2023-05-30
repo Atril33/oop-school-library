@@ -20,9 +20,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  Enumerable <a name="about-project"></a>
+# 📖  OOP-School-Library <a name="about-project"></a>
 
-> This is a Ruby program which decodes Morse Code into plain english. It was built as a part of Microverse' Curriculum exercise. I collaborated with my coding partner to build this basic yet useful program. This is just a practice to get familiar with Ruby's syntax.
+> OOP-School-Library is a user-friendly Ruby application designed for schools to manage their library. With this application, users can easily add and retrieve books from the library's collection, making it convenient for students and staff to access the resources they need. Whether it's borrowing books or exploring the library's offerings, OOP-School-Library simplifies the process, promoting a seamless and enjoyable library experience.
 
 ## 🛠 Built With <a name="built-with"></a>
 
