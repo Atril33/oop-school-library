@@ -109,14 +109,13 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-[] Use the "Decorator" design pattern.
-[] Set up associations.
-[] Add basic UI.
-[] Refactor code.
-[] Preserve data.
-[] Unit tests
+- [ ] Use the "Decorator" design pattern.
+- [ ] Set up associations.
+- [ ] Add basic UI.
+- [ ] Refactor code.
+- [ ] Preserve data.
+- [ ] Unit tests
 
-- [ ] **Store the decoded message**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
