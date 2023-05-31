@@ -40,8 +40,8 @@
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **Add Person, Student and Teacher classes**
-
+- [x] Add Person, Student and Teacher classes
+- [x] Use the "Decorator" design patterns
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -109,7 +109,6 @@ Example command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Use the "Decorator" design pattern.
 - [ ] Set up associations.
 - [ ] Add basic UI.
 - [ ] Refactor code.
