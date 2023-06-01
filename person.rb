@@ -1,8 +1,8 @@
 require './nameable'
 
 class Person < Nameable
-  attr_reader :id, :rentals
-  attr_accessor :name, :age
+  attr_reader :id
+  attr_accessor :name, :age, :rentals
 
   def initialize(age, parent_permission: true, name: 'Unknown')
     super()
@@ -38,7 +38,7 @@ class Person < Nameable
     book.add_rental(rental)
   end
 
-  def books
-    @rentals.map(&:book)
+  def add_rental(book, date)
+    Rental.new(date, book, self)
   end
 end
