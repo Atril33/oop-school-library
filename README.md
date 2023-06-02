@@ -40,7 +40,7 @@
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **Add Person, Student and Teacher classes**
+- [x] Add Person, Student and Teacher classes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
