@@ -20,13 +20,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖  OOP-School-Library <a name="about-project"></a>
+# 📖  OOP-School-Library <a name='about-project'></a>
 
 > OOP-School-Library is a user-friendly Ruby application designed for schools to manage their library. With this application, users can easily add and retrieve books from the library's collection, making it convenient for students and staff to access the resources they need. Whether it's borrowing books or exploring the library's offerings, OOP-School-Library simplifies the process, promoting a seamless and enjoyable library experience.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name='built-with'></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name='tech-stack'></a>
 
 > This project uses the following stack :
 
@@ -36,19 +36,20 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features <a name='key-features'></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
 - [x] Add Person, Student and Teacher classes
-- [x] Use the "Decorator" design patterns
+- [x] Use the 'Decorator' design patterns
 - [x] Set up associations.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [x] Add basic UI.
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started <a name='getting-started'></a>
 
 <!-- > Clone the repository by clicking on the 'Code' button and copy the link -->
 
@@ -91,11 +92,11 @@ Example command:
   ruby filname.rb
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name='authors'></a>
 👤 **Syed Atril**
 
 - GitHub: [@githubhandle](https://github.com/Atril33)
@@ -103,51 +104,50 @@ Example command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
 - Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Add basic UI.
 - [ ] Refactor code.
 - [ ] Preserve data.
 - [ ] Unit tests
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name='contributing'></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/swarzstein/morse-code/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a name='support'></a>
 
 Give a ⭐️ if you like this project!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name='acknowledgements'></a>
 
 > I would like to thank the Microverse team.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name='license'></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align='right'>(<a href='#readme-top'>back to top</a>)</p>
