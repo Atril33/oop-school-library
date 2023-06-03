@@ -84,7 +84,7 @@ class App
     puts "#{index}) Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
   end
 
-    person_index = gets.chomp.to
+    person_index = gets.chomp.to_i
 
     print 'Enter Date: '
     date = gets.chomp
@@ -95,7 +95,7 @@ class App
 
   def all_rentals
     print 'Enter a person ID:'
-    person_id = gets.chomp.to
+    person_id = gets.chomp.to_i
 
     person = @people.find { |item| item.id == person_id }
     rentals = @rentals.select { |rental| rental.person == person }
