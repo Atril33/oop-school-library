@@ -99,6 +99,6 @@ class App
 
     person = @people.find { |item| item.id == person_id }
     rentals = @rentals.select { |rental| rental.person == person }
-    rentals.each { |ren| puts "Book: #{ren.book.title}, Date: #{ren.date}" }
+    rentals.each { |ren| puts "Book: #{ren.book.title}, By Author: #{ren.book.author}, Date: #{ren.date}" }
   end
 end
