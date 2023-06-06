@@ -1,8 +1,8 @@
-require './book'
-require './person'
-require './teacher'
-require './student'
-require './rental'
+require_relative './person'
+require_relative './book'
+require_relative './teacher'
+require_relative './student'
+require_relative './rental'
 
 class App
   def initialize
@@ -15,29 +15,27 @@ class App
     print 'Enter Student Name:'
     name = gets.chomp
     print 'Enter Student Age:'
-    age = gets.chomp
+    age = gets.chomp.to_i
 
     print 'Parent permission? [Y/N]'
-    permission = gets.chomp
-    permission = true if %w[Y y].include?(permission)
-    permission = false if %w[N n].include?(permission)
+    permission = gets.chomp.downcase.include?('y')
 
     student = Student.new(age, nil, name: name, parent_permission: permission)
     @people.push(student)
-    print 'Student Created Successfully'
+    puts 'Student Created Successfully'
   end
 
   def new_teacher
     print 'Enter Teacher Name:'
     name = gets.chomp
     print 'Enter Teacher Age:'
-    age = gets.chomp
+    age = gets.chomp.to_i
     print 'Enter specialization:'
     specialization = gets.chomp
 
     teacher = Teacher.new(age, specialization, name: name)
     @people.push(teacher)
-    print 'Teacher Created Successfully'
+    puts 'Teacher Created Successfully'
   end
 
   def new_person
@@ -67,22 +65,21 @@ class App
 
     book = Book.new(title, author)
     @books.push(book)
-    print 'Book created successfully'
+    puts 'Book created successfully'
   end
 
   def new_rental
-    print 'Select a book from the following list by number'
+    puts 'Select a book from the following list by number'
     @books.each_with_index do |book, index|
-    puts "#{index}) Title: #{book.title}, Author: #{book.author}"
- end
+      puts "#{index}) Title: #{book.title}, Author: #{book.author}"
+    end
 
     book_index = gets.chomp.to_i
 
-    print 'Select a person from the following list by number (not ID)'
-
+    puts 'Select a person from the following list by number (not ID)'
     @people.each_with_index do |person, index|
-    puts "#{index}) Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
-  end
+      puts "#{index}) Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
+    end
 
     person_index = gets.chomp.to_i
 
@@ -90,7 +87,7 @@ class App
     date = gets.chomp
 
     @rentals << Rental.new(@books[book_index], @people[person_index], date)
-    print 'Rental created successfully'
+    puts 'Rental created successfully'
   end
 
   def all_rentals

@@ -44,6 +44,7 @@
 - [x] Use the 'Decorator' design patterns
 - [x] Set up associations.
 - [x] Add basic UI.
+- [x] Refactor code.
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 
@@ -111,7 +112,6 @@ Example command:
 ## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Refactor code.
 - [ ] Preserve data.
 - [ ] Unit tests
 
