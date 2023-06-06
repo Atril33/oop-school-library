@@ -44,6 +44,7 @@
 - [x] Use the 'Decorator' design patterns
 - [x] Set up associations.
 - [x] Add basic UI.
+- [x] Refactor code.
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 
@@ -104,6 +105,11 @@ Example command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
 - Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
+👤 **Ismail Changezi**
+
+- GitHub: [@IsmailChangezi](https://github.com/IsmailChangezi)
+- LinkedIn: [Ismail Changezi](https://www.linkedin.com/in/ismailchangezi/)
+
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -111,7 +117,6 @@ Example command:
 ## 🔭 Future Features <a name='future-features'></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-- [ ] Refactor code.
 - [ ] Preserve data.
 - [ ] Unit tests
 

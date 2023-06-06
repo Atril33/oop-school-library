@@ -1,4 +1,4 @@
-require './app'
+require './classes/app'
 
 def main
   app = App.new
@@ -24,20 +24,23 @@ end
 
 def select_one(app)
   option = gets.chomp
-  if option == '1'
+
+  case option
+  when '1'
     app.all_books
-  elsif option == '2'
+  when '2'
     app.all_people
-  elsif option == '3'
+  when '3'
     app.new_person
-  elsif option == '4'
+  when '4'
     app.new_book
-  elsif option == '5'
+  when '5'
     app.new_rental
-  elsif option == '6'
+  when '6'
     app.all_rentals
   else
-    exit_app
+    puts 'Thank you for using this app!'
+    exit
   end
 end
 
