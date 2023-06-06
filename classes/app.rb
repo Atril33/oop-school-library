@@ -85,7 +85,6 @@ class App
 
     print 'Enter Date: '
     date = gets.chomp
-
     @rentals << Rental.new(@books[book_index], @people[person_index], date)
     puts 'Rental created successfully'
   end
@@ -93,7 +92,6 @@ class App
   def all_rentals
     print 'Enter a person ID:'
     person_id = gets.chomp.to_i
-
     person = @people.find { |item| item.id == person_id }
     rentals = @rentals.select { |rental| rental.person == person }
     rentals.each { |ren| puts "Book: #{ren.book.title}, By Author: #{ren.book.author}, Date: #{ren.date}" }
