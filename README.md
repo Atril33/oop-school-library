@@ -105,6 +105,11 @@ Example command:
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
 - Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
+👤 **Ismail Changezi**
+
+- GitHub: [@IsmailChangezi](https://github.com/IsmailChangezi)
+- LinkedIn: [Ismail Changezi](https://www.linkedin.com/in/ismailchangezi/)
+
 <p align='right'>(<a href='#readme-top'>back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
